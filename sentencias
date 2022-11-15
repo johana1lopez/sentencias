@@ -1,0 +1,169 @@
+/*Calcular el salario d un empleado
+   -->si el salario es menos de 1500000 el descuento
+   en salud es de 5% y pensión el 5%
+   -->si el salario es entre 1500001 a 2000000 el
+   descuento en salud es de 7% y pension el 10%
+   -->si el salario es mayor a 2000000 el descuento en
+   salud es de 10% y pension 12%
+   */
+
+  /* var salario = parseInt(prompt("digite su salario"));*/
+
+   //cálculos
+   
+   /*if(salario < 1500000){
+    var salud = salario * 5/100; 
+    var pension = salario * 5/100;
+    var sueldoApagar = salario - (salud+pension);
+    document.write("su salario es:"  +salario);
+    document.write("descuento en salud es"  +salud);
+    document.write("descuento en pension es igual"  +salud);
+    document.write("descuento en pension es"  +pension);
+    document.write("Sueldo a pagar"  +sueldoApagar);
+   }else if( salario > 1500001 && salario < 2000000){
+    var salud = salario * 7/100; 
+    var pension = salario * 10/100;
+    var sueldoApagar = salario - (salud+pension);
+    document.write("su salario es:"  +salario);
+    document.write("descuento en salud es"  +salud);
+    document.write("descuento en pension es igual"  +salud);
+    document.write("descuento en pension es"  +pension);
+    document.write("Sueldo a pagar"  +sueldoApagar);
+   }else{
+    var salud = salario * 10/100; 
+    var pension = salario * 12/100;
+    var sueldoApagar = salario - (salud+pension);
+    document.write("su salario es:"  +salario);
+    document.write("descuento en salud es"  +salud);
+    document.write("descuento en pension es igual"  +salud);
+    document.write("descuento en pension es"  +pension);
+    document.write("Sueldo a pagar"  +sueldoApagar);
+   }*/
+
+   /* punto 8 */
+/*
+   var numero  = parseInt(prompt("digite un número"));
+   //comparar
+   if( numero % 2 == 0){
+      if(  numero > 0){
+         document.write("El "+numero+" es par y positivo");
+      }else{
+         document.write("El "+numero+" es par y negativo");
+      }
+   }else{
+      if(  numero < 0){
+      document.write("el "+numero+" es impar  y negativo");
+   }else{
+      document.write("el "+numero+" es impar  positivo")
+   }
+
+}
+*/
+/*var numero  = parseInt(prompt("digite un número"));
+
+if(( numero % 2) == 0 && numero > 0){
+   document.write("el "+numero+" es par y positivo");
+}else if((numero % 2) == 0 && numero < 0){
+   document.write("el "+numero+" es par y negativo");
+}else if((numero % 2) !=0 && numero > 0){
+   document.write("el "+numero+" es par y positivo");
+}else if((numero % 2) !=0 && numero < 0){
+   document.write("el "+numero+" es impar y negativo");
+}else{
+   document.write("el "+numero+" es par y neutro");
+}
+*/
+
+/*punto9*/
+/*var num1 = parseInt(prompt("ingrese primer número"));
+var num2 = parseInt(prompt("ingrese segundo número"));
+
+if(num1 > num2){
+   alert("el mayor es" +num1)
+   alert("el menor es " +num2)
+}else{
+   alert("el mayor es" +num2)
+   alert("el menor es " +num1)
+}
+*/
+/*punto 10*/
+
+/*var numero = parseInt(prompt("ingrese un número de el 1 al 7"));
+
+if( numero == 1){
+   alert("es Lunes")
+}else if (numero == 2){
+   alert(" es martes")
+}else if (numero == 3){
+   alert(" es miercoles")
+}else if (numero == 4){
+   alert(" es jueves")
+}else if (numero ==5 ){
+   alert(" es viernes")
+}else if (numero == 6){
+   alert(" es sabado")
+}else{
+   alert("es domingo")
+}*/
+
+/*punto 11*/
+/*
+var edad = parseInt(prompt("ingrese su edad"));
+
+if( edad <=18 ){
+   alert("usted es adolescente")
+}else if((edad >=19) &&( edad<=28)){
+   alert("usted es un adulto adolescente")
+}else if( (edad >=29)&&(edad<=49)){
+   alert("usted es un adulto trabaje y resignese")
+}else{
+   alert("usted es un adulto mayor, valla reclame la pension")
+}
+*/
+/*punto12*/
+var producto1 = parseInt(prompt("ingrese precio del primer producto"))
+var producto2 = parseInt(prompt("ingrese precio del segundo producto"))
+var producto3 = parseInt(prompt("ingrese precio del tercer producto"))
+var modopago = prompt ("¿cual es su modo de pago? efectivo, cupón o crédito")
+var valor_total;
+valor_total =producto1+producto2+producto3;
+
+if( modopago = efectivo){
+   var efectivo = valor_total;
+   document.write("el valor a pagar es" +valor_total);
+}else if( modopago = cupon){
+   var cupon = valor_total - (3/100);
+   document.write("el valor a pagar es" +cupon);
+}else if ( modopago = credito){
+   var credito = valor_total + 0.5;
+   document.write("el total a pagar es" +credito);
+}
+
+
+/*var nota1 = parseFloat(prompt("ingrese nota1"));
+var nota2 = parseFloat(prompt("ingrese nota2"));
+var nota3 = parseFloat(prompt("ingrese nota3"));
+var promedio;
+promedio= (nota1 + nota2 + nota3) / 3;
+
+if((promedio =1) &&(promedio <= 2.9)){
+   document.write("su nivel es malo y su nota es" +promedio )
+}else if((promedio >= 3.0) && (promedio <= 3.9)){
+   document.write("su nivel es regular y su nota es" +promedio)
+}else if((promedio >=4.0)&&(promedio <=4.5)){
+   document.write("su nivel es bueno y su nota es" +promedio)
+}else if(promedio =5){
+   document.write("su nivel es muy bueno y su nota es" +promedio)
+}*/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
